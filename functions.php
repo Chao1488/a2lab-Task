@@ -127,12 +127,12 @@ function verum_scripts() {
 	wp_enqueue_style( 'verum-about-us', get_template_directory_uri() . '/assets/images/about-us.png');
 	wp_enqueue_style( 'verum-advantages', get_template_directory_uri() . '/assets/images/advant.png');
 
-	wp_enqueue_script( 'verum-photo-video-modal', get_template_directory_uri() . '/js/assets/photo-video-modal.js', array(), '1.0', true );
-	wp_enqueue_script( 'verum-investor-modal', get_template_directory_uri() . '/js/assets/investor-modal.js', array(), '1.0', true );
-	wp_enqueue_script( 'verum-investor-modal-single', get_template_directory_uri() . '/js/assets/investor-modal-single.js', array(), '1.0', true );
-	wp_enqueue_script( 'verum-infinite-decoration', get_template_directory_uri() . '/js/assets/infinite-decoratio.js', array(), '1.0', true );
-	wp_enqueue_script( 'verum-feedback-modal', get_template_directory_uri() . '/js/assets/feedback-modal.js', array(), '1.0', true );
-	wp_enqueue_script( 'verum-common', get_template_directory_uri() . '/js/assets/common.js', array(), '1.0', true );
+	wp_enqueue_script( 'verum-photo-video-modal', get_template_directory_uri() . '/assets/js/photo-video-modal.js', array(), '1.0', true );
+	wp_enqueue_script( 'verum-investor-modal', get_template_directory_uri() . '/assets/js/investor-modal.js', array(), '1.0', true );
+	wp_enqueue_script( 'verum-investor-modal-single', get_template_directory_uri() . '/assets/js/investor-modal-single.js', array(), '1.0', true );
+	wp_enqueue_script( 'verum-infinite-decoration', get_template_directory_uri() . '/assets/js/infinite-decoratio.js', array(), '1.0', true );
+	wp_enqueue_script( 'verum-feedback-modal', get_template_directory_uri() . '/assets/js/feedback-modal.js', array(), '1.0', true );
+	wp_enqueue_script( 'verum-common', get_template_directory_uri() . '/assets/js/common.js', array(), '1.0', true );
 
 
 
