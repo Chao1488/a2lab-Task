@@ -8,33 +8,33 @@
  *
  * @link https://developer.wordpress.org/themes/functionality/custom-headers/
  *
- * @package Verum
+ * @package Test_Verum
  */
 
 /**
  * Set up the WordPress core custom header feature.
  *
- * @uses verum_header_style()
+ * @uses test_verum_header_style()
  */
-function verum_custom_header_setup() {
-	add_theme_support( 'custom-header', apply_filters( 'verum_custom_header_args', array(
+function test_verum_custom_header_setup() {
+	add_theme_support( 'custom-header', apply_filters( 'test_verum_custom_header_args', array(
 		'default-image'          => '',
 		'default-text-color'     => '000000',
 		'width'                  => 1000,
 		'height'                 => 250,
 		'flex-height'            => true,
-		'wp-head-callback'       => 'verum_header_style',
+		'wp-head-callback'       => 'test_verum_header_style',
 	) ) );
 }
-add_action( 'after_setup_theme', 'verum_custom_header_setup' );
+add_action( 'after_setup_theme', 'test_verum_custom_header_setup' );
 
-if ( ! function_exists( 'verum_header_style' ) ) :
+if ( ! function_exists( 'test_verum_header_style' ) ) :
 	/**
 	 * Styles the header image and text displayed on the blog.
 	 *
-	 * @see verum_custom_header_setup().
+	 * @see test_verum_custom_header_setup().
 	 */
-	function verum_header_style() {
+	function test_verum_header_style() {
 		$header_text_color = get_header_textcolor();
 
 		/*

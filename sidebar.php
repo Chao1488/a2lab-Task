@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package Verum
+ * @package Test_Verum
  */
 
 if ( ! is_active_sidebar( 'sidebar-1' ) ) {

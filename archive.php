@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package Verum
+ * @package Test_Verum
  */
 
 get_header();
